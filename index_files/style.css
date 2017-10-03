@@ -1,0 +1,570 @@
+/*
+Theme Name: Technomedia Build Template
+Theme URI: http://technomediapei.com/
+Description: Custom Theme developed for our client.
+Author: Technomedia Team
+Version: 1.0
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+
+
+/* =Gallery listing
+-------------------------------------------------------------- */
+
+.category-gallery .size-thumbnail img {
+	border: 10px solid #f1f1f1;
+	margin-bottom: 0;
+}
+.category-gallery .gallery-thumb {
+	float: left;
+	margin-right: 20px;
+	margin-top: -4px;
+}
+.home #content .category-gallery .entry-utility {
+	padding-top: 4px;
+}
+
+#content .gallery {
+	margin: 0 auto 18px;
+}
+#content .gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+#content .gallery img {
+	border: 2px solid #cfcfcf;
+}
+#content .gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+#content .gallery dl {
+	margin: 0;
+}
+#content .gallery img {
+	border: 10px solid #f1f1f1;
+}
+#content .gallery br+br {
+	display: none;
+}
+#content .attachment img { /* single attachment images should be centered */
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* =Menu
+-------------------------------------------------------------- */
+
+#access {
+	display: block;
+	float: left;
+	width: 940px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#access .menu-header,
+div.menu {
+	font-size: 13px;
+	width: 928px;
+}
+#access .menu-header ul,
+div.menu ul {
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+#access .menu-header li,
+div.menu li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #FFF;
+	display: block;
+	text-decoration: none;
+	font-size: 12pt;
+	line-height: 60px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+}
+#access ul ul {
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	float: left;
+	width: 200px;
+	z-index: 99999;
+	margin:50;
+	padding:30;
+}
+#access ul ul li {
+	min-width: 200px;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	line-height: 1em;
+	padding: 10px;
+	width: 180px;
+	height: auto;
+	font-size: 10pt;
+	text-align: center;
+        background-image: url(images/submenu-bg.png);	
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+	background: #de4226;
+	color: #fff;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+	color: #fff;
+	background-color: #de4226;
+}
+* html #access ul li.current_page_item a,
+* html #access ul li.current-menu-ancestor a,
+* html #access ul li.current-menu-item a,
+* html #access ul li.current-menu-parent a,
+* html #access ul li a:hover {
+	color: #fff;
+}
+
+
+/* =Techno Style
+-------------------------------------------------------------- */
+
+body, tr, td, table, div, span, div, input, textarea, p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11pt;
+	line-height:20px;
+	color: #333;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a			{ text-decoration: underline; color:#9f021a;}
+a:hover		{ text-decoration:none; color:#999;}
+
+#page-wrapper {
+	/* background-image: url(images/bg-top.png); */
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#header {
+	height: 200px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+#menu-wrapper {
+	background-image: url(images/menu-collar.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 60px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#menu {
+	height: 60px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+    position: relative;
+    z-index: 5;
+
+}
+#socialmedia {
+	width: 400px;
+	float: right;
+	margin-right: 10px;
+	text-align: right;
+	margin-top: 20px;
+}
+#logo {
+	float: left;
+	height: 130px;
+	width: 525px;
+}
+.socialmedia {
+	margin-left: 5px;
+}
+#mainphoto-bg {
+	background-color: #efece6;
+	width: 100%;
+	padding-bottom: 15px;
+	margin-top: 15px;
+}
+#photo-wrapper {
+	padding: 0px;
+	height: 330px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #efece6;
+
+}
+#hours {
+	float: right;
+	height: 160px;
+	width: 295px;
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 30px;
+}
+#hours h1 {
+	font-size: 21pt;
+	color: #9f021a;
+	margin-top: 0px;
+	text-align: right;
+}
+#hours p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: right;
+}
+#stats {
+	float: right;
+	height: 100px;
+	width: 295px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+#stats h1, #stats .s_title {
+	font-family: "Century Gothic", Verdana, "Verdana Bold", Helvetica;
+	font-size: 18pt;
+	color: #9f021a;
+	margin-top: 0px;
+	font-weight: bold;
+}
+#stats p {
+	font-family: "Century Gothic", Verdana, "Verdana Bold", Helvetica;
+	font-size: 18pt;
+	color: #9f021a;
+	margin-top: 0px;
+}
+#section-title {
+	float: right;
+	height: 280px;
+	width: 295px;
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 30px;
+}
+#photos {
+	float: left;
+	height: 330px;
+	width: 635px;
+
+	
+}
+/* .header-11 #photos { */
+/*	background-image: url(images/mainphotos/getinvolved.jpg); */
+/* } */
+
+/* .header-7 #photos { */
+/*	background-image: url(images/mainphotos/donate.jpg); */
+/* } */
+/*.header-5 #photos { */
+/*	background-image: url(images/mainphotos/adopt.jpg); */
+/* } */
+
+#line {
+	background-color: #441700;
+	height: 1px;
+	width: 960px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#boxes-wrapper {
+	height: 155px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	background-color: #FFF;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	clear: both;
+}
+#clear-1 {
+	clear: both;
+	height: 1px;
+	width: 100%;
+}
+#box-1 {
+	height: 155px;
+	width: 228px;
+	float: left;
+}
+#box-2 {
+	height: 155px;
+	width: 228px;
+	float: left;
+}
+#box-3 {
+	height: 155px;
+	width: 228px;
+	float: left;
+}
+#box-4 {
+	height: 155px;
+	width: 228px;
+	float: right;
+}
+.box-margin {
+	margin-right: 15px;
+	margin-top: 0px;
+	padding: 0px;
+}
+h1 {
+  font-family: "myriad-pro-1","myriad-pro-2",sans-serif;
+  font-size: 21pt;
+	color: #9f021a;
+	margin-top: 0px;
+}
+h2 {
+  font-family: "myriad-pro-1","myriad-pro-2",sans-serif;
+  font-size: 16pt;
+	color: #9f021a;
+	margin-bottom: 0px;
+}
+h3 {
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #9f021a;
+	font-size: 10px;
+}
+h4 {
+	font-family: "myriad-pro-1","myriad-pro-2",sans-serif;
+	font-size: 21pt;
+	color: #9f021a;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+}
+p {
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+a {
+	text-decoration: underline; 
+}
+a:hover {
+	text-decoration: underline; 
+	color: #000;
+}
+#main-wrapper {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #efece6;
+	padding-bottom: 15px;
+	clear: both;
+	overflow: hidden;
+}
+#clear-2 {
+	clear: both;
+	height: 1px;
+	width: 100%;
+}
+#main {
+	width: 930px;
+	margin-right: auto;
+	margin-left: auto;
+	/* background-image: url(images/main-bg.gif); */
+	background-color: white;
+	background-repeat: repeat-y;
+	padding: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#left {
+	float: left;
+	width: 930px;
+}
+#right {
+	float: right;
+	width: 280px;
+}
+#right-news {
+	width: 280px;
+	margin-bottom: 15px;
+}
+#right-ads {
+	width: 280px;
+	margin-bottom: 15px;
+}
+#footer-wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 60px;
+	clear: both;
+	overflow: hidden;
+	margin-top: 0px;
+}
+#footer-wrapper img {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#footer-wrapper p {
+	clear: both;
+	overflow: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+}
+#footer-wrapper a {
+	clear: both;
+	overflow: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	color: #9f021a;
+}
+#footer-wrapper a:hover {
+	clear: both;
+	overflow: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	color: #333;
+}
+#clear-3 {
+	clear: both;
+	height: 1px;
+	width: 100%;
+}
+#footer-1 {
+	width: 228px;
+	float: left;
+}
+#footer-2 {
+	width: 228px;
+	float: left;
+}
+#footer-3 {
+	width: 228px;
+	float: left;
+}
+#footer-4 {
+	width: 228px;
+	float: right;
+}
+
+.stats			{ font-size: 18pt; line-height:20pt; color: #9f021a;} 
+.news_item		{ padding:0 0 15px 0; font-size:12px;}
+.news_title		{ font-size:16px; color:#9f021a;}
+
+#flowers-wrapper {
+	margin-right: auto;
+	width: 570px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	overflow: hidden;
+	margin-left: auto;
+}
+#flowers {
+	margin-right: -30px;
+}
+.flower-item {
+	height: 190px;
+	width: 150px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 13px;
+}
+.flower-photo {
+	text-align: center;
+	padding: 0px;
+	height: 150px;
+	width: 150px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.flower-text {
+	font-size: 10pt;
+	color: #62655d;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.flower-text p {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+}hr {
+	clear: both;
+}
+
+.slide-link		{text-decoration: none;}
+.slide-link:hover	{ text-decoration:none;}
+
+.sidebars li {
+	list-style: none;
+	margin-left: 0px;
+}
+
+.sidebars li li {
+	margin-left: 15px;
+}
+
+.xoxo li{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.xoxo li li {
+	margin-left: 0px;
+}
+
+h3.widget-title { display:none }
