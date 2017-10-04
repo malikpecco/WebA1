@@ -63,6 +63,7 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 #access {
 	display: block;
 	float: left;
+	background: #de4226;
 	width: 940px;
 	height: 60px;
 	margin-top: 0;
@@ -80,6 +81,7 @@ div.menu ul {
 	list-style: none;
 	margin: 0;
 	padding:0;
+	background: #de4226;
 }
 #access .menu-header li,
 div.menu li {
@@ -132,7 +134,7 @@ div.menu li {
 }
 #access li:hover > a,
 #access ul ul :hover > a {
-	background: #de4226;
+	background-color: #de4226;
 	color: #fff;
 }
 #access ul li:hover > ul {
@@ -169,7 +171,7 @@ body {
 }
 
 a			{ text-decoration: underline; color:#9f021a;}
-a:hover		{ text-decoration:none; color:#999;}
+a:hover		{ text-decoration:none; color:#FFFFFF;}
 
 #page-wrapper {
 	/* background-image: url(images/bg-top.png); */
@@ -229,8 +231,8 @@ a:hover		{ text-decoration:none; color:#999;}
 }
 #photo-wrapper {
 	padding: 0px;
-	height: 330px;
-	width: 960px;
+	
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 15px;
@@ -241,8 +243,8 @@ a:hover		{ text-decoration:none; color:#999;}
 #hours {
 	float: right;
 	height: 160px;
-	width: 295px;
-	text-align: right;
+	width: 20%;
+	text-align: center;
 	padding-top: 50px;
 	padding-right: 30px;
 }
@@ -250,7 +252,7 @@ a:hover		{ text-decoration:none; color:#999;}
 	font-size: 21pt;
 	color: #9f021a;
 	margin-top: 0px;
-	text-align: right;
+	text-align: center;
 }
 #hours p {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -260,10 +262,9 @@ a:hover		{ text-decoration:none; color:#999;}
 }
 #stats {
 	float: right;
-	height: 100px;
-	width: 295px;
-	padding-left: 30px;
-	padding-top: 20px;
+	width: 30%;
+	padding-left: 60px;
+	padding-top: 50px;
 }
 #stats h1, #stats .s_title {
 	font-family: "Century Gothic", Verdana, "Verdana Bold", Helvetica;
@@ -410,7 +411,7 @@ a:hover {
 	width: 100%;
 }
 #main {
-	width: 930px;
+	width: 66.66666667%;
 	margin-right: auto;
 	margin-left: auto;
 	/* background-image: url(images/main-bg.gif); */
@@ -423,11 +424,11 @@ a:hover {
 }
 #left {
 	float: left;
-	width: 930px;
+	width: 100%;
 }
 #right {
 	float: right;
-	width: 280px;
+	width: 100%;
 }
 #right-news {
 	width: 280px;
@@ -438,7 +439,7 @@ a:hover {
 	margin-bottom: 15px;
 }
 #footer-wrapper {
-	width: 960px;
+	width: 66%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 60px;
@@ -476,19 +477,19 @@ a:hover {
 	width: 100%;
 }
 #footer-1 {
-	width: 228px;
+	width: 20%;
 	float: left;
 }
 #footer-2 {
-	width: 228px;
+	width: 20%;
 	float: left;
 }
 #footer-3 {
-	width: 228px;
+	width: 20%;
 	float: left;
 }
 #footer-4 {
-	width: 228px;
+	width: 20%;
 	float: right;
 }
 
